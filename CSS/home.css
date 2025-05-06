@@ -1,0 +1,135 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color:#161616;
+    
+  }
+  
+  body {
+    width: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  header{
+    background-color: transparent;
+    width: 100%;
+    height: 9vw;
+    max-height: 100px;
+    border-bottom: 1px solid #fed72800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+  }
+  .logo{
+    background-color: #FED728;
+    width: 20%;
+    height: 100%;
+  }
+
+  .pai{
+    margin-bottom: 5%;
+    margin-top: 08%;
+    background-color: aliceblue;
+    width: 100%;
+    height: 70vw;
+    max-height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .slides{
+  background-color: black;
+  width: 60%;
+
+  
+  }
+  
+  .links{
+  background-color:aqua;
+  width: 35%;
+  display: flex;
+  justify-content:start;
+  align-items: center;
+  flex-direction: column;
+  }
+
+.Resultado{
+    margin-top: 5%;
+    padding: 2vw;
+}
+
+.link_Quiz{
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height:70%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bt_Quiz{
+    padding: 1vw;
+}
+
+
+
+.esquerda{
+background-color: rgb(0, 0, 0);
+width: 100%;
+height: 70vw;
+max-height: 500px;
+display: flex;
+justify-content: start;
+flex-direction: row;
+}
+.info_left{
+background-color: aqua;
+width: 60%;
+
+}
+.txt_left{
+    background-color: aqua;
+    width: 40%;
+}
+
+
+.direita{
+    background-color: #171717;
+    width: 100%;
+    height: 70vw;
+    max-height: 500px;
+    display: flex;
+    justify-content: end;
+}
+.info_right{
+    background-color: rgb(0, 255, 55);
+    width: 60%;
+    
+    }
+    .txt_right{
+        background-color: rgb(0, 255, 55);
+        width: 40%;
+    }
+
+
+footer{
+    margin-top: 20%;
+    background-color: #FED728;
+    width: 100%;
+    height: 20vw;
+    max-height: 250px;
+}
+
+
+
+
+
+
+
