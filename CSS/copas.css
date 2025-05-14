@@ -23,7 +23,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
   z-index: 3;
   backdrop-filter: blur(2px);
 
@@ -65,4 +64,11 @@ a {
     clip-path: inset(0 0% 0 0);
     opacity: 1;
   }
+}
+
+.container{
+    margin: auto auto;
+    background-color: #FED728;
+    width: 90%;
+    height: 50vw;
 }

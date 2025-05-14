@@ -81,7 +81,7 @@ a {
 }
 
 .fundo {
-  position: relative; /* Importante para que .links seja posicionada relativamente a este bloco */
+  position: relative;
   z-index: 1;
   width: 100%;
 }
