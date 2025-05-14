@@ -1,0 +1,68 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #161616;
+
+}
+
+body {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: transparent;
+  width: 100%;
+  height: 5vw;
+  max-height: 100px;
+  border-bottom: 1px solid #fed72800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 3;
+  backdrop-filter: blur(2px);
+
+  &:hover {
+    transition: 1s;
+    backdrop-filter: blur(15px);
+    transform: scale(1.2, 1.2);
+
+  }
+}
+.logo img {
+  width: 20vw;
+  max-width: 240px;
+
+}
+
+.logo h1 {
+  font-family: 'bungee';
+  animation: revelarTexto 3s ease-out forwards;
+  color: #FED728;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'bungee';
+  src: url('/Font/Bungee_Shade/BungeeShade-Regular.ttf');
+}
+
+@keyframes revelarTexto {
+  0% {
+    clip-path: inset(0 100% 0 0);
+    opacity: 0;
+  }
+
+  100% {
+    clip-path: inset(0 0% 0 0);
+    opacity: 1;
+  }
+}
