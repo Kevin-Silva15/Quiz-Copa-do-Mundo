@@ -16,4 +16,8 @@
     currentIndex = (currentIndex + 1) % slides.length;
     showSlide(currentIndex);
   });
+
+  //-------------PEGAR OS DADOS CERTOS X ERRADOS
+  
+
  
