@@ -38,5 +38,23 @@ console.log(respostas);
 
   console.log(acertos);
 
+  if (acertos >= 1 && acertos <= 3) {
+      document.getElementById('frase').innerHTML = "Xiiii! Tá precisando faltar na escola pra estudar!";
+    } else if (acertos >= 4 && acertos <= 7) {
+      document.getElementById('frase').innerHTML = "Ééé, até que foi bem!";
+    } else if (acertos >= 8) {
+      document.getElementById('frase').innerHTML = "Parabéns, foi muito bem! Mas que tal parar de assistir futebol e ir ter uma vida social?";
+    } else {
+      document.getElementById('frase').innerHTML = "----------------";
+    }
+
+   
+   
 });
+ 
+
+
+
+
+
 

@@ -118,11 +118,21 @@ a {
   align-items: center;
 }
 
-.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9,.slide10,.slide11,.slide12 {
+.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9,.slide10,.slide11{
   background-color: #3e3d3d;
 }
 h2 {
   text-align: center;
+}
+.slide11.active {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.titu-sl11{
+  color: #FED728;
 }
 
 .alternativas {
