@@ -38,6 +38,8 @@ console.log(respostas);
 
   console.log(acertos);
 
+  document.getElementById('acertosfinal').innerHTML = `${acertos}/10 `
+
   if (acertos >= 1 && acertos <= 3) {
       document.getElementById('frase').innerHTML = "Xiiii! Tá precisando faltar na escola pra estudar!";
     } else if (acertos >= 4 && acertos <= 7) {
